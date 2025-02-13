@@ -1,0 +1,26 @@
+#container1{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(30, 226, 161);
+}
+#container2{
+    height: 50vh;
+    width: 100vw;
+    background-color: aqua;
+}
+#container3{
+    height: 40vh;
+    width: 80vw;
+    background-color: blue;
+}
+#container3>article{
+    height: 50%;
+    width: 50%;
+background-color: aqua;
+}
+#container4{
+    height: 1em;
+    width: 1em;
+    background-color: brown;
+    font-size: 100;
+}
