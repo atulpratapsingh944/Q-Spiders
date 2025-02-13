@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+
+div{
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    /* size,style,color of border */
+    padding: 50px;
+}
+
+section{
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    padding: 50px;
+    margin: 100px 20px  10px 5px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 20px;    box-sizing: border-box;
+}
+
+/* we can't get negative value in padding  */
+
+/* shot hand properties
+margin T R B L 
+: T L/R B 
+: T/B L/R 
+: ALL sides */

@@ -1,0 +1,26 @@
+/* Selectors can written in 7 ways */
+/* Box b/w content and border is called padding. */
+
+h2[name]{
+    background-color: rgb(95, 116, 19);
+}
+h2[name="subheading2"]{
+    background-color: aqua;
+}
+h2[name |="sub"]{
+    background-color: blue;
+}
+
+h2[name~="subject"] {
+background-color: brown;
+}
+
+h2[name^="str"]{
+    background-color: pink;
+}
+h2[name$="y"]{
+    background-color: lightcoral;
+}
+h2[name*="time"]{
+    background-color: skyblue;
+}
