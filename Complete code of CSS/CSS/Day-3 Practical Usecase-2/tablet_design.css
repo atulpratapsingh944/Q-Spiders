@@ -1,0 +1,33 @@
+/* For Large screen design */
+
+@media screen and (width < 1300px)
+{
+    body{
+        height: 150vh;   
+    }
+
+    #card-container{
+        flex-direction: column;
+    }
+
+    #card-container .card{
+        width: 80%;
+        height: 380px;
+        display: flex;
+    }
+
+    #card-container .card .profile{
+        width: 50%;
+        height: 100%;
+    }
+
+    #card-container .btns{
+        width: 50%;
+        height: 100%;
+        padding: 20px 35px;
+    }
+
+    #card-container .btns a{
+        padding: 16px 0px;
+    }
+}

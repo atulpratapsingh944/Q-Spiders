@@ -1,0 +1,113 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+section{
+    width: 100%;
+    height: 80vh;
+    background-color: rgba(161, 105, 69, 0.166);
+    /* border: 2px solid black; */
+    position: relative;
+}
+
+section .center-container{
+    width: 1250px;
+    height: 100%;
+    /* background-color: salmon; */
+    margin: auto;
+}
+
+section header{
+    width: 100%;
+    height: 100px;
+    /* background-color: teal; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section header .logo{
+    font-size: 32px;
+}
+
+section .logo a span{
+    font-weight: bold;
+}
+
+
+section nav ul{
+    display: flex;
+    gap: 0px 20px;
+}
+
+section nav ul li a{
+    padding: 10px 25px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+section nav ul li:hover a{
+    background-color: rgba(161, 160, 160, 0.726);
+
+}
+
+section .content-container{
+    /* background-color: lightcoral; */
+    height: calc(70vh - 100px);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+section h2{
+    font-size:40px;
+    width: 500px;
+}
+
+section h2 span{
+    color: gold;
+}
+
+section p{
+    font-size: 23px;
+    margin-block:5px 40px;
+}
+
+section button{
+    padding: 10px 45px;
+    font-size: 22px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border: 1.2px solid white;
+    border-radius: 5px;
+}
+
+section button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border: 1.2px solid transparent;
+}
+
+section video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+}

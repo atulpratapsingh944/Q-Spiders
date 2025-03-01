@@ -1,0 +1,38 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+#parent{
+    width: 100vw;
+    height: 100vh;
+    background-color: lightgray;
+    padding: 70px;
+    display: grid;
+}
+#parent .item{
+height: 350px;
+width: 300px;
+font-size: 50px;
+text-align: center;
+}
+
+
+#parent .item1{
+    background-color: turquoise;
+}
+#parent .item2{
+    background-color: burlywood;
+}
+
+#parent .item3{
+    background-color:blue;
+}
